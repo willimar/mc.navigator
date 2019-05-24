@@ -18,8 +18,4 @@ This project has several limitations yet.</PackageReleaseNotes>
     <AssemblyOriginatorKeyFile>Navigator.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\mc.navigator.domain\mc.navigator.domain.csproj" />
-  </ItemGroup>
-
 </Project>

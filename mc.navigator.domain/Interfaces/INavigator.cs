@@ -14,10 +14,9 @@ namespace mc.navigator.domain.Interfaces
     public interface INavigator
     {
         Method RequestMethod { get; set; }
-        HttpRequestHeaders Headers { get; }
+        HttpHeaders Headers { get; }
         int TimeOut { get; set; }
         Dictionary<string, string> Form { get; set; }
-
         string Navigate(Uri uri, Method method);
     }
 }

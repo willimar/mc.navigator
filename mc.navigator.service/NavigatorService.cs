@@ -1,4 +1,5 @@
-﻿using System;
+﻿using mc.navigator.domain.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
