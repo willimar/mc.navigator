@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>BadRobot</AssemblyName>
+    <RootNamespace>mc.navigator</RootNamespace>
+    <Version>1.0.1</Version>
+    <Authors>Rocha, Willimar</Authors>
+    <Company>Rocha, Willimar MC</Company>
+    <Description>Web navigator to simple projects</Description>
+    <Copyright>Willimar Rocha MC © 2019</Copyright>
+    <PackageProjectUrl>https://github.com/willimar/mc.navigator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/willimar/mc.navigator</RepositoryUrl>
+    <PackageTags>Navigator</PackageTags>
+    <PackageReleaseNotes>Simple navigator to personal project.
+This project has several limitations yet.</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Navigator.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mc.navigator.domain\mc.navigator.domain.csproj" />
+  </ItemGroup>
+
+</Project>
