@@ -1,23 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>mc.navigator</AssemblyName>
-    <RootNamespace>mc.navigator</RootNamespace>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
-    <Version>1.0.1</Version>
-    <Authors>Rocha, Willimar</Authors>
-    <Company>Rocha, Willimar MC</Company>
-    <Description>Domain to Navigator</Description>
-    <Copyright>Willimar Rocha MC © 2019</Copyright>
-    <PackageProjectUrl>http://comandotorrents.com/</PackageProjectUrl>
-    <PackageIconUrl />
-    <RepositoryUrl>http://comandotorrents.com/</RepositoryUrl>
-    <PackageTags>Navigators</PackageTags>
-    <PackageReleaseNotes>This is a domain from the package</PackageReleaseNotes>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>Navigator.pfx</AssemblyOriginatorKeyFile>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
 </Project>
